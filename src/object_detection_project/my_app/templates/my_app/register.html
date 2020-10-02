@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+</head>
+<body>
+     <div class="wrapper fadeInDown">
+      <div id="formContent">
+        <!-- Tabs Titles -->
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <em class="fas fa-user" style="color: #56baed; font-size: 60px; margin:12px;"></em>
+        </div>
+
+        <!-- Login Form -->
+        <form>
+          <input type="email" id="email" class="fadeIn second" name="email" placeholder="Email">
+            <br>
+          <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password">
+            <br>
+            <input type="password" id="confirm_password" class="fadeIn third" name="confirmpassword" placeholder="Confirm Password">
+          <input type="submit" class="fadeIn fourth" value="Register">
+        </form>
+
+        <!-- Remind Passowrd -->
+<!--        <div id="formFooter">-->
+<!--            <span>-->
+<!--                <a class="underlineHover" href="#">Forgot Password?</a>-->
+<!--                <div style="border-bottom: 1px solid rgba(204, 204, 204, 1); margin: 25px;"></div>-->
+<!--                <a class="underlineHover" href="#">Register</a>-->
+<!--            </span>-->
+
+<!--        </div>-->
+
+      </div>
+    </div>
+</body>
+</html>
